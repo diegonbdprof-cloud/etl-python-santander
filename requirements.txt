@@ -1,0 +1,11 @@
+# Sem dependências externas.
+#
+# O pipeline usa somente a biblioteca padrão do Python 3.10+:
+# csv, argparse, pathlib, sys e unittest.
+#
+# Pandas, requests e openai aparecem no notebook original da Santander Dev Week,
+# mas não são necessários aqui. O módulo csv mantém Conta e Cartão como texto
+# (os zeros à esquerda permanecem) e as mensagens saem de modelos fixos, sem API.
+#
+# Instalar este arquivo não baixa pacotes:
+#   python -m pip install -r requirements.txt
